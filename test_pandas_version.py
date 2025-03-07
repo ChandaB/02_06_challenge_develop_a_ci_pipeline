@@ -8,6 +8,7 @@ PANDAS_VERSION = "1.5.3"
 
 
 def test_pandas_version():
+    print(f"Pandas version is {pd.__version__}")
     ''' Use an assertion to check the output of pd.__version__ '''
     assert pd.__version__ in [PANDAS_VERSION]
 
